@@ -183,6 +183,7 @@
 
         const currentURL = window.location.origin;
         $.post(currentURL + '/api/friends', userData, (data) => {
+            $('#resultsModal').modal('toggle')
             alert('working')
         })
     }

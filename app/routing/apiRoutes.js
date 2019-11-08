@@ -18,7 +18,7 @@ module.exports = (app) => {
         const userData = req.body;
         const userScores = userData.scores;
 
-        const totalDifference = 0;
+        // const totalDifference = 0;
 
         for (let i = 0; i < friends.length; i++) {
             totalDifference = 0;
